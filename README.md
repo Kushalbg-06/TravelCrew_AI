@@ -113,12 +113,3 @@ Hotel Agent      Restaurant Agent      Activity Planner Agent
                 Travel Advisor Agent  (final output)
 ```
 
-Tasks pass context to each other via CrewAI's `context=[...]` mechanism, so
-later agents (e.g. the Advisor) see the outputs of everything upstream.
-
-## Extending later
-
-Because all the AI logic lives in `agents/`, `tasks/`, `crews/`, and
-`memory/`, you can drop a FastAPI layer on top later (calling
-`run_travel_crew()` from an endpoint) without touching this core — exactly
-as described in the original project plan.
