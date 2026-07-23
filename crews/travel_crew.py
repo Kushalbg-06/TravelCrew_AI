@@ -52,7 +52,7 @@ def run_travel_crew(trip_input: dict, remembered_preferences: str = "") -> str:
         tasks=tasks,
         process=Process.hierarchical,
         manager_agent=travel_manager_agent(),
-        planning=True,               # lets the manager plan delegation up front
+        planning=False,               # lets the manager plan delegation up front
         verbose=True,
     )
 
