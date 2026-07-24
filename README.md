@@ -6,9 +6,9 @@ A terminal-based, multi-agent travel planner built with **CrewAI**, using a
 memory across runs. CLI-only by design, so the agent/crew/memory logic stays
 clean and reusable if a frontend gets added later.
 
-[License: MIT](LICENSE)
-Python
-CrewAI
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
+![CrewAI](https://img.shields.io/badge/CrewAI-Multi--Agent-blue)
 
 ---
 
@@ -178,9 +178,3 @@ between steps (e.g. Budget needs Transport's estimate first).
 - **Structured JSON output** — have the Advisor return structured data instead of free text, for easier rendering
 
 ---
-
-
-
-## License
-
-Licensed under the [MIT License](LICENSE).
